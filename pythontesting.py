@@ -28,6 +28,10 @@ soup = BeautifulSoup(''.join(the_page))
 #print soup.findAll('td')
 print values
 #get and print all Juicystudio.com values
+print 'Title --' ,
+print soup.find('title').string
+
+
 print 'Total sentences -- ' ,
 print soup.find('td', text = re.compile('Total sentences')).next.next.next.next
 

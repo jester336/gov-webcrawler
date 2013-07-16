@@ -73,7 +73,7 @@ for item in siteList:
 # write urlList2 to csv.file
 import csv
 with open('url.csv','wb') as f:
-  writer = csv.writer(f)
+  writer = csv.writer(f, delimiter = ' ', quotechar = '|')
   writer.writerows(urlList2)
 #read written .csv file
 with open('url.csv', 'rb') as r:
