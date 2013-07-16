@@ -55,39 +55,11 @@ for url in urlList:
     print len(urlList2)
 
 #find all .gov link is each page
-siteList = []
-
-#for url3 in urlList2:
-#  link = urllib2.urlopen(url3)
- # soup = BeautifulSoup(''.join(link))
-  #for a in soup.findAll('a'):
-   # extention = a.get('href')
-    #if extention not in siteList:
-     # if extention != None:
-      #  if re.match('^/', extention):
-       #   siteList.append(url + extention)
-
-for item in siteList:
-  print item
-
-# write urlList2 to csv.file
-import csv
-with open('url.csv','wb') as f:
-  writer = csv.writer(f)
-  writer.writerows(urlList2)
-#read written .csv file
-with open('url.csv', 'rb') as r:
-  reader = csv.reader(r, delimiter=',',quotechar='|')
-  for row in reader:
-    print ''.join(row)
 
 
 
 
 
-
-print 'siteList...' ,
-print len(siteList)
 print 'urlList2 length...' ,
 print len(urlList2)
 print 'urlList length...' ,
