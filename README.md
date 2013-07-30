@@ -6,8 +6,8 @@ Jon Larsen <larsjon@isu.edu>
 written in python
 get the readability of all .gov websites
 
-This project is done by Jon Larsen as part of an CPI internship with Idaho State Uniersity.
-Supervising person/s are Dr. Kevin Parker
+This project is done by Jon Larsen as part of an CPI internship with Idaho State University.
+Supervising person/s: Dr. Kevin Parker
 
 
 The government webcrawler is going to be used to find every .gov website and pull the keywords and 
